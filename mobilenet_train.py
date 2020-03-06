@@ -61,7 +61,7 @@ model.fit_generator(generator=train_generator,steps_per_epoch=step_size_train,ep
 
 model.save('micro_model.h5')
 
-#model.load_weights('my_model.h5')
+
 
 
 
